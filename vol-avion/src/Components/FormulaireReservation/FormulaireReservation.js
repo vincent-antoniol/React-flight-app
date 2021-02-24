@@ -32,14 +32,14 @@ const FormulaireReservation = () => {
 
         <Form.Row>
           <Form.Label>Nom</Form.Label>
-          <Col>
+          <Col >
             <Form.Control type="text" placeholder="Nom" />
           </Col>
         </Form.Row>
 
         <Form.Row>
           <Form.Label>Prenom</Form.Label>
-          <Col>
+          <Col >
             <Form.Control type="text" placeholder="Prenom" />
           </Col>
         </Form.Row>

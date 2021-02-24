@@ -8,7 +8,11 @@ import RechercheVol from "../RechercheVol/RechercheVol";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Col from "react-bootstrap/Col";
-import FormulaireReservation from '../FormulaireReservation/FormulaireReservation';
+import FormulaireReservation from "../FormulaireReservation/FormulaireReservation";
+import PageReservation from "../PageReservation/PageReservation";
+import VolSelectionne from "../VolSelectionne/VolSelectionne";
+import PageRecap from "../PageRecap/PageRecap";
+import PagePaiement from "../PagePaiement/PagePaiement";
 
 
 const Homepage = () => {
@@ -43,24 +47,10 @@ const Homepage = () => {
         )}
       </Form.Group>
 
-                  
-      <br/>
-            <br/>
-            <FormulaireReservation/>
-            <Pub/>
-      </div>
-    );
-  };
-    
+      <br />
+      <br />
+    </div>
+  );
+};
 
 export default Homepage;
-
-
-
-
-
-
-
-
-
-    

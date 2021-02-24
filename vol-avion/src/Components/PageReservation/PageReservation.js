@@ -1,6 +1,8 @@
 import React from 'react';
 import FormulaireReservation from '../FormulaireReservation/FormulaireReservation';
 import NavigationBar from '../NavigationBar/NavigationBar';
+import VolSelectionne from "../VolSelectionne/VolSelectionne";
+
 
 const PageReservation = () => {
     return (
@@ -8,6 +10,7 @@ const PageReservation = () => {
             <NavigationBar/>
             <VolSelectionne/>
             <FormulaireReservation/>
+            
       </div>
     );
   };
