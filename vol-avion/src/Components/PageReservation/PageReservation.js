@@ -1,9 +1,13 @@
 import React from 'react';
+import FormulaireReservation from '../FormulaireReservation/FormulaireReservation';
+import NavigationBar from '../NavigationBar/NavigationBar';
 
 const PageReservation = () => {
     return (
       <div>
-            PageReservation
+            <NavigationBar/>
+            <VolSelectionne/>
+            <FormulaireReservation/>
       </div>
     );
   };
